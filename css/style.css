@@ -1,0 +1,350 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+a {
+    text-decoration: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.body {
+    background-color: #D9D9D9;
+}
+.slider {
+    background-color: #FFFFFF;
+}
+.gallery {
+    background-color: #FFFFFF;
+}
+.outfits {
+    background-color: #FFFFFF;
+}
+.galleryh5 {
+    font-size: 12;
+    font-family: 'Raleway', sans-serif;
+    color: #A2A2A2;
+}
+.galleryp {
+    font-size: 14px;
+    color: #101412;
+}
+.h2 {
+    font-size: 32px;
+}
+.p {
+    font-size: 16px;
+}
+.subscribe {
+    background-image: url("../image/image10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1270px;
+    max-width: 100%;
+}
+.gal1 {
+    -webkit-transition: all 1s linear 3ms;
+    -o-transition: all 1s linear 3ms;
+    transition: all 1s linear 3ms;
+}
+
+
+.gal1:hover {
+    -webkit-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+            transform: scale(0.85);
+    cursor: pointer;
+}
+.script {
+    font-weight: bold;
+    margin-top: 8px;
+    color: white;
+    margin-right: 50px;
+    letter-spacing: 1px;
+}
+/*  */
+/* Center the loader */
+.form2 {
+    width: 100%;
+}
+.logo1:hover {
+    -webkit-transform: scale(1.02 , 1.03);
+        -ms-transform: scale(1.02 , 1.03);
+            transform: scale(1.02 , 1.03);
+}
+.logo1 {
+    -webkit-transition: 2s linear 1s;
+    -o-transition: 2s linear 1s;
+    transition: 2s linear 1s;
+}
+.subscribe {
+    background-image: url('../image/image10.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+}
+.white-wraper {
+    background-color: lavenderblush;
+    width: 1500px;
+    height: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: space-around;
+        -ms-flex-align: space-around;
+            align-items: space-around;
+}
+.white-wraper h4 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.p1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.p2 {
+    font-size: 14px;
+    color: #101412;
+}
+.test1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 100px;
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #F7F7F7;
+    
+}
+.prize {
+    font-size: 25px;
+    font-weight: bold;
+}
+.prise {
+    font-size: 50px;
+    font-weight: bold;
+}
+.voucher {
+    font-size: 25px;
+    font-weight: bold;
+}
+.instagram {
+    text-align: center;
+}
+.photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.fb {
+    font-size: 25px;
+    border-radius: 50%;
+}
+.ins {
+    font-size: 25px;
+}
+.twit {
+    font-size: 25px;
+}
+.yout {
+    font-size: 25px;
+}
+/* new section */
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+/* footer */ 
+.footer1 {
+    /* height: 360px; */
+    background-color:#575757;
+    margin-top: 15px;
+}
+/* responsive */
+@media (max-width: 992px) {
+    .p1 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 810px) {
+    .carousel-item{
+        height: 500px;
+    } 
+    .carousel-item img{
+        height: 500px;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        min-width: 100%;
+        height: 40rem;
+        margin: 0 auto;
+    }
+    .p1 {
+        font-size: 20px;
+    }
+    .test1 {
+        margin-top: 70px;
+        width: 150px;
+        height: 150px;
+    }
+    .prize {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .prise {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .voucher {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .white-wraper {
+        height: 300px;
+    }
+}
+@media (max-width: 782px) {
+    .test1 {
+        margin-right: 20px;
+        margin-top: 70px;
+    }
+}
+@media (max-width: 782px) {
+    .test1 {
+        margin-right: 0px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 580px) {
+    .carousel-item{
+        height: 400px;
+    } 
+    .carousel-item img{
+        height: 400px;
+    }
+    .carousel-item > img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        min-width: 100%;
+        height: 40rem;
+        margin: 0 auto;
+    }
+    .subscribe {
+        height: 450px;
+    }
+    .p1 {
+        font-size: 14px;
+    }
+    .test1 {
+        margin-top: 60px;
+        width: 120px;
+        height: 120px;
+    }
+    .prize {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .prise {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .voucher {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .h2 {
+        font-size: 16px;
+    }
+    .p {
+        font-size: 12px;
+    }
+}
+@media (max-width:450px) {
+    .carousel-item{
+        height: 300px;
+    } 
+    .carousel-item img{
+        height: 300px;
+    }
+}
+@media (max-width:430px) {
+    .slider {
+        display: none;
+    }
+    .h2 {
+        margin-top: 50px;
+    }
+    .p1 {
+        font-size: 12px;
+    }
+    .white-wraper h4 {
+        font-size: 18px;
+    }
+    .p2 {
+        font-size: 10px;
+    }
+    .subscribe {
+        height: 380px;
+    }
+}
